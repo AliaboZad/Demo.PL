@@ -1,0 +1,12 @@
+using System;
+
+
+namespace Demo.PL.ViewsModels
+{
+    public class ErrorViewModel
+    {
+        public string RequestId { get; set; }
+
+        public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
+    }
+}

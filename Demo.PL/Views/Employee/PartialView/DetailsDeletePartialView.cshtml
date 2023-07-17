@@ -1,0 +1,31 @@
+﻿@model EmployeeViewModel
+
+
+<input hidden asp-for="ImageName" />
+<div asp-validation-summary="All"></div>
+<div class="form-group">
+    <lable class="col-form-label">Name</lable>
+    <input type="text" asp-for="Name" class="form-control" readonly />
+
+</div>
+<div class="form-group">
+    <lable class="col-form-label">Salary</lable>
+    <input type="text" asp-for="Salary" class="form-control" readonly />
+</div>
+<div class="form-group">
+    <lable class="col-form-label">HiringDate</lable>
+    <input type="text" asp-for="HiringDate" class="form-control" readonly />
+</div>
+<div class="form-group">
+    <lable class="col-form-label">Age</lable>
+    <input type="text" asp-for="Age" class="form-control" readonly />
+</div>
+<div class="form-group">
+    <lable class="col-form-label">Address</lable>
+    <input type="text" asp-for="Address" class="form-control" readonly />
+</div>
+
+<div class="form-group">
+    <lable class="col-form-label">Phone Number</lable>
+    <input type="text" asp-for="PhoneNumber" class="form-control" readonly />
+</div>
